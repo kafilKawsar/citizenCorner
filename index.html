@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>“Citizen Corner”</title>
+</head>
+<body>
+ <!-- header start -->
+<header>
+  <div class="container">
+    <!-- navbar start-->
+<nav class="navbar navbar-expand-lg c_nav">
+  <div class="container-fluid px-0">
+    <!-- logo -->
+    <a class="navbar-brand" href="index.html">
+    <img class="img-fluid logo" src="images/logo.png" alt="">
+    <p>ম্যানেজমেন্ট সিস্টেম</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_cus" aria-controls="nav_cus" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- menu -->
+    <div class="navbar-collapse menu collapse" id="nav_cus">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">হোম</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">নাগরিক লগইন</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">প্রশ্ন ও উত্তর</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">লগইন</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+  </div>
+</header>
+
+
+<section class="applic">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 float-start">
+        <img width="500px" height="600px" class="about-img" src="images/slider_01.jpg" alt="">  
+      </div>
+      <div class="col-md-7 col-xs-12">
+        <div class="row">
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6 ><a href="">অনলাইন আবেদন</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">নিবন্ধন</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">ট্র্যাকিং</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">নবায়ন</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">ডুপ্লিকেট</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">স্থগিত/বাতিল</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">হস্তান্তর</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <div class="applic_content">
+              <h6><a href="">স্থানান্তর</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="tab-content">
+              <div class="col-md-10 col-md-offset-1">
+                <h5 class="text-center">আবেদনের জন্য লাইসেন্সের ধরণ ও অফিস নির্বাচন করুন</h5>
+                  <form action="/action_page.php">
+  
+                    <label for="division-id" class="control-label">বিভাগ</label>
+                    <select id="division-id" class="form-control" required="required" name="division-id">
+                      <option value="">নির্বাচন করুন</option>
+                      <option value="1">বরিশাল</option>
+                      <option value="2">চট্টগ্রাম</option>
+                      <option value="3">ঢাকা</option>
+                      <option value="4">খুলনা</option>
+                      <option value="5">রাজশাহী</option>
+                      <option value="6">রংপুর</option>
+                      <option value="7">সিলেট</option>
+                      <option value="8">ময়মনসিংহ</option>
+                    </select>
+                
+                    <label for="office-id" class="control-label">অফিস</label>
+                    <select id="office-id" class="form-control" required="required" name="office-id">
+                      <option value="নির্বাচন করুন">নির্বাচন করুন</option>
+                      <option value="9">জেলা প্রশাসকের কার্যালয়, গোপালগঞ্জ</option>
+                      <option value="10">জেলা প্রশাসকের কার্যালয়, সিলেট</option>
+                      <option value="11">জেলা প্রশাসকের কার্যালয়, হবিগঞ্জ</option>
+                      <option value="12">জেলা প্রশাসকের কার্যালয়, মৌলভীবাজার</option>
+                      <option value="13">জেলা প্রশাসকের কার্যালয়, সুনামগঞ্জ</option>
+                      <option value="14">জেলা প্রশাসকের কার্যালয়, ফেনী</option>
+                      <option value="15">জেলা প্রশাসকের কার্যালয়, সিরাজগঞ্জ</option>
+                      <option value="16">জেলা প্রশাসকের কার্যালয়, কক্সবাজার</option>
+                      <option value="17">জেলা প্রশাসকের কার্যালয়, শরীয়তপুর</option>
+                      <option value="18">জেলা প্রশাসকের কার্যালয়, মাদারীপুর</option>
+                      <option value="19">জেলা প্রশাসকের কার্যালয়, ব্রাক্ষণবাড়িয়া</option>
+                      <option value="20">জেলা প্রশাসকের কার্যালয়, নরসিংদী</option>
+                      <option value="21">জেলা প্রশাসকের কার্যালয়, জামালপুর</option>
+                      <option value="22">জেলা প্রশাসকের কার্যালয়, শেরপুর</option>
+                      <option value="23">জেলা প্রশাসকের কার্যালয়, রংপুর</option>
+                      <option value="24">জেলা প্রশাসকের কার্যালয়, মানিকগঞ্জ</option>
+                      <option value="25">জেলা প্রশাসকের কার্যালয়, নারায়ণগঞ্জ</option>
+                      <option value="26">জেলা প্রশাসকের কার্যালয়, রাজবাড়ী</option>
+                      <option value="27">জেলা প্রশাসকের কার্যালয়, টাঙ্গাইল</option>
+                      <option value="28">জেলা প্রশাসকের কার্যালয়, পঞ্চগড়</option>
+                      <option value="29">জেলা প্রশাসকের কার্যালয়, মুন্সিগঞ্জ</option>
+                      <option value="30">জেলা প্রশাসকের কার্যালয়, নেত্রকোনা</option>
+                      <option value="31">জেলা প্রশাসকের কার্যালয়,পাবনা</option>
+                      <option value="32">জেলা প্রশাসকের কার্যালয়, কিশোরগঞ্জ</option>
+                      <option value="33">জেলা প্রশাসকের কার্যালয়, জয়পুরহাট</option>
+                      <option value="34">জেলা প্রশাসকের কার্যালয়, বগুড়া</option>
+                      <option value="35">জেলা প্রশাসকের কার্যালয়, ফরিদপুর</option>
+                      <option value="36">জেলা প্রশাসকের কার্যালয়, নওগাঁ</option>
+                      <option value="37">জেলা প্রশাসকের কার্যালয়, লালমনিরহাট</option>
+                      <option value="38">জেলা প্রশাসকের কার্যালয়, ঢাকা</option>
+                      <option value="39">জেলা প্রশাসকের কার্যালয়,গাজীপুর</option>
+                      <option value="40">জেলা প্রশাসকের কার্যালয়, ময়মনসিংহ</option> <option value="41">জেলা প্রশাসকের কার্যালয়, দিনাজপুর</option> <option value="42">জেলা প্রশাসকের কার্যালয়, চাঁপাইনবাবগঞ্জ</option> <option value="43">জেলা প্রশাসকের কার্যালয়,খুলনা</option> <option value="44">জেলা প্রশাসকের কার্যালয়, নড়াইল</option> <option value="45">জেলা প্রশাসকের কার্যালয়,কুষ্টিয়া</option>
+                    </select>
+  
+  
+                    <label for="license-type" class="control-label">লাইসেন্সের ধরণ</label>
+                    <select id="license-type" class="form-control" required="required" name="license-type">
+                      <option value="নির্বাচন করুন">নির্বাচন করুন</option>
+                      
+                    </select>
+                  
+                    <label for="mobile" class="mobile-n">মোবাইল নম্বর</label> 
+                    <input type="number" class="form-control" id="mobile" required="required" name="mobile" placeholder="মোবাইল নম্বর দিন..">
+  
+                    <div class="submit"><input type="submit" class="submit-btn" value="পরবর্তী ধাপ"></div>
+                  </form>
+                </div>
+            </div>
+
+            <!-- <div id="registration_tab " class="tap-pane fade fade">
+              <div class="col-md-10 col-md-offset-1" style="width: 80%; margin-left: 62px;">
+                <h5 class="text-center">আবেদনের জন্য লাইসেন্সের ধরণ ও অফিস নির্বাচন করুন</h5>
+                  <form action="/action_page.php">
+  
+                    <label for="division-id" class="control-label">বিভাগ</label>
+                    <select id="division-id" class="form-control" required="required" name="division-id">
+                      <option value="">নির্বাচন করুন</option>
+                      <option value="1">বরিশাল</option>
+                      <option value="2">চট্টগ্রাম</option>
+                      <option value="3">ঢাকা</option>
+                      <option value="4">খুলনা</option>
+                      <option value="5">রাজশাহী</option>
+                      <option value="6">রংপুর</option>
+                      <option value="7">সিলেট</option>
+                      <option value="8">ময়মনসিংহ</option>
+                    </select>
+                
+                    <label for="office-id" class="control-label">অফিস</label>
+                    <select id="office-id" class="form-control" required="required" name="office-id">
+                      <option value="নির্বাচন করুন">নির্বাচন করুন</option>
+                      <option value="9">জেলা প্রশাসকের কার্যালয়, গোপালগঞ্জ</option>
+                      <option value="10">জেলা প্রশাসকের কার্যালয়, সিলেট</option>
+                      <option value="11">জেলা প্রশাসকের কার্যালয়, হবিগঞ্জ</option>
+                      <option value="12">জেলা প্রশাসকের কার্যালয়, মৌলভীবাজার</option>
+                      <option value="13">জেলা প্রশাসকের কার্যালয়, সুনামগঞ্জ</option>
+                      <option value="14">জেলা প্রশাসকের কার্যালয়, ফেনী</option>
+                      <option value="15">জেলা প্রশাসকের কার্যালয়, সিরাজগঞ্জ</option>
+                      <option value="16">জেলা প্রশাসকের কার্যালয়, কক্সবাজার</option>
+                      <option value="17">জেলা প্রশাসকের কার্যালয়, শরীয়তপুর</option>
+                      <option value="18">জেলা প্রশাসকের কার্যালয়, মাদারীপুর</option>
+                      <option value="19">জেলা প্রশাসকের কার্যালয়, ব্রাক্ষণবাড়িয়া</option>
+                      <option value="20">জেলা প্রশাসকের কার্যালয়, নরসিংদী</option>
+                      <option value="21">জেলা প্রশাসকের কার্যালয়, জামালপুর</option>
+                      <option value="22">জেলা প্রশাসকের কার্যালয়, শেরপুর</option>
+                      <option value="23">জেলা প্রশাসকের কার্যালয়, রংপুর</option>
+                      <option value="24">জেলা প্রশাসকের কার্যালয়, মানিকগঞ্জ</option>
+                      <option value="25">জেলা প্রশাসকের কার্যালয়, নারায়ণগঞ্জ</option>
+                      <option value="26">জেলা প্রশাসকের কার্যালয়, রাজবাড়ী</option>
+                      <option value="27">জেলা প্রশাসকের কার্যালয়, টাঙ্গাইল</option>
+                      <option value="28">জেলা প্রশাসকের কার্যালয়, পঞ্চগড়</option>
+                      <option value="29">জেলা প্রশাসকের কার্যালয়, মুন্সিগঞ্জ</option>
+                      <option value="30">জেলা প্রশাসকের কার্যালয়, নেত্রকোনা</option>
+                      <option value="31">জেলা প্রশাসকের কার্যালয়,পাবনা</option>
+                      <option value="32">জেলা প্রশাসকের কার্যালয়, কিশোরগঞ্জ</option>
+                      <option value="33">জেলা প্রশাসকের কার্যালয়, জয়পুরহাট</option>
+                      <option value="34">জেলা প্রশাসকের কার্যালয়, বগুড়া</option>
+                      <option value="35">জেলা প্রশাসকের কার্যালয়, ফরিদপুর</option>
+                      <option value="36">জেলা প্রশাসকের কার্যালয়, নওগাঁ</option>
+                      <option value="37">জেলা প্রশাসকের কার্যালয়, লালমনিরহাট</option>
+                      <option value="38">জেলা প্রশাসকের কার্যালয়, ঢাকা</option>
+                      <option value="39">জেলা প্রশাসকের কার্যালয়,গাজীপুর</option>
+                      <option value="40">জেলা প্রশাসকের কার্যালয়, ময়মনসিংহ</option> <option value="41">জেলা প্রশাসকের কার্যালয়, দিনাজপুর</option> <option value="42">জেলা প্রশাসকের কার্যালয়, চাঁপাইনবাবগঞ্জ</option> <option value="43">জেলা প্রশাসকের কার্যালয়,খুলনা</option> <option value="44">জেলা প্রশাসকের কার্যালয়, নড়াইল</option> <option value="45">জেলা প্রশাসকের কার্যালয়,কুষ্টিয়া</option>
+                    </select>
+  
+  
+                    <label for="license-type" class="control-label">লাইসেন্সের ধরণ</label>
+                    <select id="license-type" class="form-control" required="required" name="license-type">
+                      <option value="নির্বাচন করুন">নির্বাচন করুন</option>
+                      
+                    </select>
+                  
+                    <label for="mobile">মোবাইল নম্বর</label> 
+                    <input type="number" class="form-control" id="mobile" required="required" name="mobile" placeholder="মোবাইল নম্বর দিন..">
+  
+                    <div class="submit"><input type="submit" class="submit-btn" value="পরবর্তী ধাপ"></div>
+                  </form>
+                </div>
+            </div> -->
+
+          </div>
+      </div>
+    </div>
+   
+  </div>      
+</section>
+
+
+<!-- footer start -->
+<section class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 social-profile">
+                    <h3>সামাজিক যোগাযোগ</h3>
+                    <a class="facebook" href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="google-plus" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+
+                <div class="col-lg-offset-3 col-md-offset-1 col-md-3 col-sm-6 col-xs-12 planning-execute">
+                    <h3>জরুরী প্রয়োজনে</h3>
+                    <p><a class="telephone" href="tel:013456789">
+                        <i class="fa-solid fa-phone"></i> 01345678922
+                    </a></p>
+                    <p><a href="#">
+                        <i class="fa-solid fa-envelope"></i> index01@gmail.com
+                    </a></p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 urgent-need">
+                    <h3>কারিগরী সহায়তায়</h3>
+                    <a href="http://a2i.pmo.gov.bd/">
+                        <img src="images/vission21-icon.png"  class="img-responsive a2i-img custom-img">
+                    </a>
+                    <a href="http://a2i.pmo.gov.bd/">
+                        <img src="images/sif.png" width="50" height="43" class="img-responsive a2i-img custom-img">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12 urgent-need">
+                    <h3>বাস্তবায়নে</h3>
+                    <a href="https://ictd.gov.bd/">
+                        <img src="images/logo-ictd.png" width="60" height="40" class="img-responsive a2i-img custom-img">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-xs-12">
+                    © সর্বস্বত্ব স্বত্বাধিকার সংরক্ষিত আই সি টি ডিভিশন
+                </div>
+                <div class="col-sm-7 col-xs-12">
+                    <ul class="footer-menu">
+                        <li><a href="#">এল.এম.এস  সম্পর্কে</a></li>
+                        <li><a href="#">ব্যবহারের শর্ত</a></li>
+                        <li><a href="#">সহযোগিতায়</a></li>
+                        <li><a href="#">যোগাযোগ</a></li>
+                        <li><a href="#">সাইটম্যাপ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer end -->
+ <!-- JS links  -->
+         <script src="js/popper.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         <script src="js/script.js"></script>
+      </body>
+      </html>
+
+      
